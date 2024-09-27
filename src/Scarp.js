@@ -9,6 +9,7 @@ import problems from "./images/scarp/problems.png";
 import findings from "./images/scarp/findings.png";
 import d1 from "./images/scarp/d1.png";
 import d2 from "./images/scarp/d2.png";
+import d3 from "./images/scarp/d3.png";
 import f1 from "./images/scarp/f1.png";
 // import f2 from "./images/scarp/f2.png";
 // import f3 from "./images/scarp/f3.png";
@@ -150,6 +151,54 @@ const Scarp = () => {
         <li><strong>Cleaner design</strong> reduces <strong>clutter</strong>, enhancing <strong>visibility</strong>.</li>
         <li><strong>Clear presentation</strong> aids <strong>understanding</strong> of <strong>system status</strong> and <strong>interaction</strong>.</li>
       </ul></p>
+      <h3>03. Contact page</h3>
+      <p>
+        The initial <strong>'Contact Us'</strong> page had a <strong>list view</strong> of all the contacts, which is <strong>challenging to navigate</strong> and <strong>comprehend quickly</strong>. Therefore, I decided to introduce the content using <strong>cards</strong> so that users can easily <strong>scan</strong> and <strong>identify individual contacts</strong>, improving <strong>visibility</strong> and <strong>recognition</strong>. This emphasizes the importance of presenting information in a format that enhances <strong>user understanding</strong> and <strong>engagement</strong>.
+      </p>
+      <div className="project-image">
+          <img src={d3} alt="design 3"/>
+          </div>
+          <h2>👩🏻‍💻 Implementation</h2>
+      <p>
+        My primary responsibilities also involved <strong>translating the designs</strong> into SharePoint as follows:
+      </p>
+      <ul>
+        <li>
+          Ensured <strong>seamless integration</strong> of new <strong>information architecture</strong> and <strong>design aesthetics</strong> into the SharePoint environment.
+        </li>
+        <li>
+          Configured SharePoint settings, created and organized <strong>document libraries</strong>, and <strong>customized intranet appearance</strong>.
+        </li>
+        <li>
+          Produced <strong>libraries</strong> for each page, and created <strong>views for sub-categories</strong>, but faced limitations in <strong>flexibility</strong> due to SharePoint constraints.
+        </li>
+      </ul>
+      <h2>🧐Future: Usability Studies</h2>
+      <p>
+        I am planning to conduct <strong>usability studies</strong> to evaluate the effectiveness of the redesigned <strong>SCARP intranet</strong>. After finalizing the <strong>hi-fi designs</strong>, diverse faculty and staff members will engage with the intranet to perform daily tasks. These studies aim to gather <strong>insights</strong>, identify <strong>pain points</strong>, and perform <strong>design iterations</strong> to improve the <strong>user experience</strong>.
+      </p>
+      <h2>🎬 <strong>Conclusion</strong></h2>
+      <p>
+        In conclusion, the SCARP Intranet redesign project has been a comprehensive journey aimed at addressing <strong>usability challenges</strong> and <strong>inefficiencies</strong> faced by faculty and staff. Through a <strong>user-centric design process</strong>, I have restructured <strong>information architecture</strong>, enhanced <strong>navigation</strong>, and introduced a <strong>cleaner</strong>, more <strong>efficient layout</strong>. The <strong>iterative nature</strong> of the design and incorporation of <strong>feedback</strong> from stakeholders ensures that the final intranet meets the specific needs of the SCARP community.
+      </p>
+      <p>
+        This redesign not only improves the overall <strong>user experience</strong> but also aligns with key <strong>design principles</strong>, such as <strong>information architecture</strong>, <strong>consistency</strong>, and <strong>efficiency of use</strong>. The introduction of new features, such as the <strong>"ask the team"</strong> section, aims to ensure improved <strong>communication</strong> and <strong>collaboration</strong>.
+      </p>
+      <h2>🙇🏻‍♀️ <strong>Learnings</strong></h2>
+      <ul>
+        <li>
+          <strong>User-Centric Designs</strong> and <strong>Continuous Iterations</strong>: I have learned the importance of user-centric design and continuous iteration. Prioritizing the needs of SCARP faculty and staff was crucial in crafting a solution that resonates with end users.
+        </li>
+        <li>
+          <strong>Navigating Constraints in SharePoint Design</strong>: I have learned the limitations of designing for SharePoint, emphasizing the importance of aligning creative vision with platform constraints. Certain design elements may face challenges during implementation, including constraints on visuals, functionalities, and responsiveness.
+        </li>
+        <li>
+          <strong>Collaboration and Communication</strong>: I gained insights into the technical aspects of implementing design changes within SharePoint, highlighting the importance of collaboration between design and IT teams. This experience underscored the need for solutions that are both visually appealing and practical within the platform's constraints.
+        </li>
+      </ul>
+      <p>
+        In conclusion, this experience was valuable in shaping my approach to future design projects, emphasizing a holistic understanding of <strong>user needs</strong> and the <strong>technical landscape</strong> in which the solutions are deployed.
+      </p>
             </section>
             <Footer/>
         </div>
