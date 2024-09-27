@@ -5,6 +5,7 @@ import byteBroom from "./images/bytebroom/bytebroom.png";
 import me from "./images/profile.png";
 import separator from "./images/separator.png";
 import atlas from "./images/atlas/atlas.png";
+import scarp from "./images/scarp/scarp.png";
 
 const Portfolio = () => {
   return (
@@ -36,10 +37,30 @@ const Portfolio = () => {
                 className="work-image"
               />
               <div className="work-details">
-                <p className="project-header">Atlas Power technologies</p>
+                <p className="project-header">Atlas Power technologies: Internship</p>
                 <h3>Energy System Storage</h3>
                 <p>
-                  Helping engineers manage controllers and edit parameters easily.
+                🔒 This project is under an NDA.
+                </p>
+                <div className="work-tags">
+                  <span>UX/UI Design</span>
+                  <span>User Research</span>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div className="work-item">
+            <a href="/scarp" className="work-link">
+              <img
+                src={scarp}
+                alt="SCARP Thumbnail"
+                className="work-image"
+              />
+              <div className="work-details">
+                <p className="project-header">UBC Faculty of Applied Science: Internship</p>
+                <h3>SCARP Intranet</h3>
+                <p>
+                Elevating communication for seamless collaboration.
                 </p>
                 <div className="work-tags">
                   <span>UX/UI Design</span>
@@ -56,7 +77,7 @@ const Portfolio = () => {
                 className="work-image"
               />
               <div className="work-details">
-                <p className="project-header">UXathon 2023: Runner-up</p>
+                <p className="project-header">UXathon 2023: Hackathon Runner-up</p>
                 <h3>EcoPantry</h3>
                 <p>
                   Helping users reduce food waste by organizing and tracking

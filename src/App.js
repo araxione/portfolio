@@ -24,6 +24,7 @@ import Portfolio from "./Portfolio";
 import EcoPantry from "./EcoPantry";
 import ByteBroom from "./ByteBroom";
 import Atlas from "./Atlas";
+import Scarp from "./Scarp";
 import "./App.css"; 
 
 const App = () => {
@@ -36,6 +37,7 @@ const App = () => {
           <Route path="/ecopantry" element={<EcoPantry />} />
           <Route path="/bytebroom" element={<ByteBroom />} />
           <Route path="/atlas" element={<Atlas />} />
+          <Route path="/scarp" element={<Scarp />} />
           <Route path="/resume" element={<Portfolio />} />{" "}
           {/* Adjust as necessary */}
           <Route path="/playground" element={<Portfolio />} />{" "}
