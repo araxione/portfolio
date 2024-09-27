@@ -110,7 +110,13 @@ body {
 .work-link {
   text-decoration: none;
   color: #333;
+/* } */
+/* .work-link { */
+  position: relative; /* Needed for absolute positioning */
+  cursor: url('./images/cursor.png'), auto; /* Custom cursor */
 }
+
+
 
 .work-image {
   width: 100%;
