@@ -1,0 +1,190 @@
+/* body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f6f4;
+  color: #333;
+}
+
+.newsletter-container {
+  padding: 24px;
+}
+
+.newsletter-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter-intro {
+  text-align: center;
+}
+
+.newsletter-intro h1 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.role-timeline-skills {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.role, .timeline, .skills {
+  text-align: center;
+}
+
+.case-study-btn {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.read-time {
+  margin-top: 10px;
+  color: #777;
+}
+
+.table-of-contents {
+  margin-top: 30px;
+}
+
+.table-of-contents h3 {
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+}
+
+.table-of-contents ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.table-of-contents li {
+  margin-bottom: 8px;
+}
+
+.main-content {
+  margin-top: 40px;
+}
+
+.solution-section {
+  margin-bottom: 20px;
+}
+
+.solution-section h2 {
+  font-size: 1.75rem;
+  margin-bottom: 10px;
+}
+
+.mobile-navigation {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-navigation a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.mobile-navigation ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.mobile-navigation li {
+  margin-bottom: 5px;
+}
+
+.current-section {
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .role-timeline-skills {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .table-of-contents {
+    text-align: center;
+  }
+
+  .mobile-navigation {
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 90%;
+  }
+} */
+/* src/ScarpNewsletter.css */
+.scarp-container {
+  padding: 20px;
+  background-color: #f7f6f4;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.scarp-header h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.scarp-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.scarp-info div h2 {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.scarp-info div p {
+  font-size: 0.9rem;
+}
+
+.scarp-background,
+.scarp-solution,
+.scarp-experience {
+  margin-bottom: 40px;
+}
+
+.scarp-background h2,
+.scarp-solution h2,
+.scarp-experience h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.scarp-background p,
+.scarp-solution p,
+.scarp-experience p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Additional responsive adjustments */
+@media (max-width: 768px) {
+  .scarp-info {
+    flex-direction: column;
+  }
+
+  .scarp-info div {
+    margin-bottom: 10px;
+  }
+}

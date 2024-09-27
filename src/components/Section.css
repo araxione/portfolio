@@ -1,0 +1,16 @@
+/* src/components/Section.css */
+.section {
+  margin-bottom: 40px;
+  padding-left: 25%;
+}
+
+.section-content {
+  margin-top: 10px;
+}
+
+.background-image {
+  width: 100%;
+  height: 200px;
+  background-color: #ddd;
+  margin: 20px 0;
+}
