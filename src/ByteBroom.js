@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "aos/dist/aos.css";
 import AOS from "aos";
 import "./EcoPantry.css";
+import Footer from "./Footer";
 import byteBroom from "./images/bytebroom/bytebroom.png";
 import affinity from "./images/bytebroom/affinity.png";
 import lo_fi from "./images/bytebroom/lo-fi.png";

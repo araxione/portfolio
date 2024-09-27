@@ -6,6 +6,9 @@ import me from "./images/profile.png";
 import separator from "./images/separator.png";
 import atlas from "./images/atlas/atlas.png";
 import scarp from "./images/scarp/scarp.png";
+import Footer from "./Footer";
+
+
 const Portfolio = () => {
   return (
     <div className="page-container">
@@ -112,6 +115,7 @@ const Portfolio = () => {
           {/* Add more projects below */}
         </div>
       </section>
+      <Footer/>
     </div>
   );
 };

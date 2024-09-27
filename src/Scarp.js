@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "aos/dist/aos.css";
 import AOS from "aos";
 import "./EcoPantry.css";
+import Footer from "./Footer";
 import scarp_thumbnail from "./images/scarp/scarp-thumbnail.png";
 import stats from "./images/scarp/stats.png";
 import problems from "./images/scarp/problems.png";
@@ -150,6 +151,7 @@ const Scarp = () => {
         <li><strong>Clear presentation</strong> aids <strong>understanding</strong> of <strong>system status</strong> and <strong>interaction</strong>.</li>
       </ul></p>
             </section>
+            <Footer/>
         </div>
     </div>
   );

@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "aos/dist/aos.css";
 import AOS from "aos";
 import "./EcoPantry.css";
+import Footer from "./Footer";
 import ecoThumbnail from "./images/ecopantry/eco-thumbnail.png";
 import groceryList from "./images/ecopantry/grocery-list.png";
 import recipes from "./images/ecopantry/recipes.png";
@@ -354,6 +355,7 @@ const EcoPantry = () => {
             <img src={team} alt="Team" />
           </div>
         </section>
+        <Footer/>
       </div>
     </div>
   );
