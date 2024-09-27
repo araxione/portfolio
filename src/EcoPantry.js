@@ -2,18 +2,18 @@ import React, { useEffect } from "react";
 import "aos/dist/aos.css";
 import AOS from "aos";
 import "./EcoPantry.css";
-// import ecoThumbnail from "./images/ecopantry/eco-thumbnail.png";
-// import groceryList from "./images/ecopantry/grocery-list.png";
-// import recipes from "./images/ecopantry/recipes.png";
-// import pantry from "./images/ecopantry/pantry.png";
-// import donate_rescue from "./images/ecopantry/donate-rescue.png";
-// import communities from "./images/ecopantry/communities.png";
-// import research_questions from "./images/ecopantry/research-questions.png";
+import ecoThumbnail from "./images/ecopantry/eco-thumbnail.png";
+import groceryList from "./images/ecopantry/grocery-list.png";
+import recipes from "./images/ecopantry/recipes.png";
+import pantry from "./images/ecopantry/pantry.png";
+import donate_rescue from "./images/ecopantry/donate-rescue.png";
+import communities from "./images/ecopantry/communities.png";
+import research_questions from "./images/ecopantry/research-questions.png";
 import up1 from "./images/ecopantry/up1.png";
 import up2 from "./images/ecopantry/up2.png";
-// import journey from "./images/ecopantry/journey.png";
+import journey from "./images/ecopantry/journey.png";
 import flow from "./images/ecopantry/flow.png";
-// import wireframes from "./images/ecopantry/wireframes.png";
+import wireframes from "./images/ecopantry/wireframes.png";
 import hi_fi from "./images/ecopantry/hi-fi.png";
 import team from "./images/ecopantry/team.png";
 
@@ -22,38 +22,38 @@ const EcoPantry = () => {
     AOS.init({ duration: 1000, once: true }); // Initialize AOS with a 1 second animation duration
   }, []);
 
-  // const features = [
-  //   {
-  //     title: "Effortless Grocery Tracking",
-  //     description:
-  //       "Easily add food items <b>manually</b> or <b>automatically</b>. Get <b>notified</b> when an item has gone to waste before, encouraging more <b>mindful choices</b>.",
-  //     image: groceryList,
-  //   },
-  //   {
-  //     title: "Recipe Inspirations",
-  //     description:
-  //       "Based on your pantry’s contents, receive <b>recipe suggestions</b> to help you use up ingredients before they <b>expire</b> and avoid <b>waste</b>.",
-  //     image: recipes,
-  //   },
-  //   {
-  //     title: "Pantry at Your Fingertips",
-  //     description:
-  //       "Add, track, and manage pantry items through <b>manual entry</b>, <b>voice detection</b>, or <b>barcode scanning</b>, with timely reminders for upcoming <b>expiration dates</b>.",
-  //     image: pantry,
-  //   },
-  //   {
-  //     title: "Donate and Rescue Platform",
-  //     description:
-  //       "Seamlessly connect with local food banks to <b>donate</b> or <b>rescue</b> excess food, helping reduce waste and support your <b>community</b>.",
-  //     image: donate_rescue,
-  //   },
-  //   {
-  //     title: "Join the Food Waste Revolution",
-  //     description:
-  //       "Engage with others who share your commitment to reducing food waste. <b>Share</b> experiences, take on challenges, earn <b>badges</b>, and get rewarded for making a <b>difference</b>.",
-  //     image: communities,
-  //   },
-  // ];
+  const features = [
+    {
+      title: "Effortless Grocery Tracking",
+      description:
+        "Easily add food items <b>manually</b> or <b>automatically</b>. Get <b>notified</b> when an item has gone to waste before, encouraging more <b>mindful choices</b>.",
+      image: groceryList,
+    },
+    {
+      title: "Recipe Inspirations",
+      description:
+        "Based on your pantry’s contents, receive <b>recipe suggestions</b> to help you use up ingredients before they <b>expire</b> and avoid <b>waste</b>.",
+      image: recipes,
+    },
+    {
+      title: "Pantry at Your Fingertips",
+      description:
+        "Add, track, and manage pantry items through <b>manual entry</b>, <b>voice detection</b>, or <b>barcode scanning</b>, with timely reminders for upcoming <b>expiration dates</b>.",
+      image: pantry,
+    },
+    {
+      title: "Donate and Rescue Platform",
+      description:
+        "Seamlessly connect with local food banks to <b>donate</b> or <b>rescue</b> excess food, helping reduce waste and support your <b>community</b>.",
+      image: donate_rescue,
+    },
+    {
+      title: "Join the Food Waste Revolution",
+      description:
+        "Engage with others who share your commitment to reducing food waste. <b>Share</b> experiences, take on challenges, earn <b>badges</b>, and get rewarded for making a <b>difference</b>.",
+      image: communities,
+    },
+  ];
 
   return (
     <div className="page-container">
@@ -89,7 +89,7 @@ const EcoPantry = () => {
         </div>
 
         <div className="project-image" data-aos="zoom-in">
-          {/* <img src={ecoThumbnail} alt="EcoPantry App Mockups" /> */}
+          <img src={ecoThumbnail} alt="EcoPantry App Mockups" />
         </div>
 
         <section className="problem-section" data-aos="fade-down">
@@ -128,7 +128,7 @@ const EcoPantry = () => {
             <b>community engagement</b>, we help users take control of their{" "}
             <b>food consumption</b>.
           </p>
-          {/* <div className="feature-container">
+          <div className="feature-container">
             {features.map((feature, index) => (
               <div className="feature-item" key={index} data-aos="fade-down">
                 <div className="feature-text">
@@ -144,7 +144,7 @@ const EcoPantry = () => {
                 />
               </div>
             ))}
-          </div> */}
+          </div>
         </section>
 
         <section className="research-section" data-aos="fade-down">
@@ -159,7 +159,7 @@ const EcoPantry = () => {
             and improve food waste <b>management</b>.
           </p>
           <div className="project-image">
-            {/* <img src={research_questions} alt="EcoPantry Research" /> */}
+            <img src={research_questions} alt="EcoPantry Research" />
           </div>
 
           <p>
@@ -212,7 +212,7 @@ const EcoPantry = () => {
             <b>motivations</b> and <b>frustrations</b> at key touchpoints.
           </p>
           <div className="project-image">
-            {/* <img src={journey} alt="User Journey" /> */}
+            <img src={journey} alt="User Journey" />
           </div>
           <p>
             Let's consider Emma's journey.
@@ -285,7 +285,7 @@ const EcoPantry = () => {
           </p>
 
           <div className="project-image">
-            {/* <img src={wireframes} alt="Wireframes" /> */}
+            <img src={wireframes} alt="Wireframes" />
           </div>
           <p>
             We <b>iterated</b> on the <b>wireframes</b>, focusing on how to

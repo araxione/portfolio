@@ -2,10 +2,10 @@ import React, { useEffect } from "react";
 import "aos/dist/aos.css";
 import AOS from "aos";
 import "./EcoPantry.css";
-// import byteBroom from "./images/bytebroom/bytebroom.png";
+import byteBroom from "./images/bytebroom/bytebroom.png";
 import affinity from "./images/bytebroom/affinity.png";
 import lo_fi from "./images/bytebroom/lo-fi.png";
-// import wireframes from "./images/bytebroom/wireframes.png";
+import wireframes from "./images/bytebroom/wireframes.png";
 // import count from "./images/bytebroom/error-count.png";
 // import time from "./images/bytebroom/time.png";
 // import anova from "./images/bytebroom/anova.png";
@@ -99,9 +99,9 @@ const ByteBroom = () => {
           </div>
         </div>
 
-        {/* <div className="project-image" data-aos="zoom-in">
+        <div className="project-image" data-aos="zoom-in">
           <img src={byteBroom} alt="ByteBroom App Mockups" />
-        </div> */}
+        </div>
 
         <section className="problem-section" data-aos="fade-down">
           <h2>❓ Problem</h2>
@@ -117,7 +117,6 @@ const ByteBroom = () => {
               <strong>file management tools</strong>, which often lack a
               long-term, cohesive approach to organizing <strong>data</strong>.
             </p>
-            <br />
             <p>
               As a <strong>university student</strong>, I found myself
               constantly overwhelmed with{" "}
@@ -129,7 +128,6 @@ const ByteBroom = () => {
               students.
             </p>
 
-            <br />
             <blockquote
               style={{
                 fontStyle: "italic",
@@ -187,7 +185,7 @@ const ByteBroom = () => {
             <strong>online questionnaire</strong> and{" "}
             <strong>remote semi-structured interviews</strong>.
           </p>
-          <br />
+          {/* <br /> */}
           <h3>Focal Points for Field Study</h3>
           <p>The field study focused on understanding:</p>
           <ul>
@@ -212,7 +210,7 @@ const ByteBroom = () => {
               digital storage management styles.
             </li>
           </ul>
-          <br />
+          {/* <br /> */}
           <h3>Study Protocol</h3>
           <p>
             Our protocol included both <strong>quantitative</strong> and{" "}
@@ -231,7 +229,7 @@ const ByteBroom = () => {
               Each interview lasted 15 to 30 minutes.
             </li>
           </ul>
-          <br />
+          {/* <br /> */}
           <h3>Study Findings</h3>
           <div className="project-image" data-aos="zoom-in">
             <img src={affinity} alt="ByteBroom Affinity Map" />
@@ -254,7 +252,7 @@ const ByteBroom = () => {
               fully manage their storage.
             </li>
           </ul>
-          <br />
+          {/* <br /> */}
           <h3>Lo-fi Prototyping</h3>
           <p>
             Drawing from these insights, we created{" "}
@@ -282,7 +280,7 @@ const ByteBroom = () => {
               Watch the video.
             </a>
           </p>
-          <br />
+          {/* <br /> */}
           <p>
             We also created some <strong>wireframes</strong> to visualize the
             initial concepts for the <strong>ByteBroom interface</strong>. These
@@ -290,9 +288,9 @@ const ByteBroom = () => {
             the <strong>user experience</strong> and facilitate effective{" "}
             <strong>digital storage management</strong>.
           </p>
-          {/* <div className="project-image" data-aos="zoom-in">
+          <div className="project-image" data-aos="zoom-in">
             <img src={wireframes} alt="Wireframes" />
-          </div> */}
+          </div>
 
           <h3>Walkthrough Report</h3>
 
@@ -365,7 +363,7 @@ const ByteBroom = () => {
             methods and asked to complete a task of decluttering a simulated
             file system.
           </p>
-          <br />
+          {/* <br /> */}
           <h3>Conditions</h3>
           <p>The three methods tested were:</p>
           <ul>
@@ -382,7 +380,7 @@ const ByteBroom = () => {
               want to keep, leaving the rest for deletion.
             </li>
           </ul>
-          <br />
+          {/* <br /> */}
           <h3>Between-Group Design</h3>
           <p>
             We used a <strong>between-group design</strong> to avoid learning
@@ -390,7 +388,7 @@ const ByteBroom = () => {
             once. This design allowed for shorter sessions and minimized biases
             that could arise from repeating the task under different conditions.
           </p>
-          <br />
+          {/* <br /> */}
           <h3>Procedure</h3>
           <p>
             The experiment lasted <strong>30 minutes</strong> and was conducted
@@ -409,7 +407,7 @@ const ByteBroom = () => {
               task, recorded in seconds.
             </li>
           </ul>
-          <br />
+          {/* <br /> */}
           <h3>Post-Task Interview</h3>
           <p>
             After completing the task, participants were asked to provide
@@ -418,7 +416,7 @@ const ByteBroom = () => {
             <strong>System Usability Scale (SUS)</strong> to assess their
             overall experience with the file selection method.
           </p>
-          <br />
+          {/* <br /> */}
           <h3>Limitations</h3>
           <p>
             Despite the insights gained, the experiment had a small sample size
@@ -478,7 +476,7 @@ const ByteBroom = () => {
           {/* <div className="project-image" data-aos="zoom-in">
             <img src={main_effects} alt="Main Effects" />
           </div> */}
-          <br />
+          {/* <br /> */}
           <h3>Qualitative Feedback</h3>
           <p>
             After the experiment, participants were asked to answer 10 questions
@@ -498,7 +496,7 @@ const ByteBroom = () => {
             terminology used in this method felt awkward and could be refined
             for better clarity.
           </p>
-          <br />
+          {/* <br /> */}
           <p>
             All methods scored above 68 on the SUS, indicating acceptable{" "}
             <strong>usability levels</strong>. Additionally, users expressed
@@ -515,7 +513,7 @@ const ByteBroom = () => {
             <strong>ByteBroom</strong> accessible for both first-time and
             returning users.
           </p>
-          <br />
+          {/* <br /> */}
           <h3>Prototyping Approach</h3>
           <p>
             To test different <strong>file selection methods</strong>, we
@@ -524,7 +522,7 @@ const ByteBroom = () => {
             selected because it offers more flexibility and better supports{" "}
             <strong>file navigation</strong> and <strong>organization</strong>.
           </p>
-          <br />
+          {/* <br /> */}
           <p>Our prototype has two main parts:</p>
           <ul>
             <li>
@@ -542,7 +540,7 @@ const ByteBroom = () => {
               system.
             </li>
           </ul>
-          <br />
+          {/* <br /> */}
           <p>
             We used a <strong>minimalist design</strong> to make the interface
             simple and easy to use. Key principles like{" "}
@@ -551,7 +549,7 @@ const ByteBroom = () => {
             <strong>Visual hierarchy</strong> was created through font sizes and
             weights, guiding the user’s attention to important elements.
           </p>
-          <br />
+          {/* <br /> */}
           <p>
             We followed key <strong>usability principles</strong>, ensuring:
           </p>
@@ -573,13 +571,13 @@ const ByteBroom = () => {
               locate and interact with.
             </li>
           </ul>
-          <br />
+          {/* <br /> */}
           <p>
             The prototype was built using <strong>Figma</strong> and focuses on{" "}
             <strong>simplicity</strong> and <strong>usability</strong>. This
             allowed us to concentrate on key features and interactions.
           </p>
-          <br />
+          {/* <br /> */}
           <p>
             Here is a link to the <strong>narrated video</strong> demonstrating
             how a user completes tasks with our prototype:{" "}
@@ -600,7 +598,7 @@ const ByteBroom = () => {
             <strong>innovation</strong> with <strong>user expectations</strong>{" "}
             when designing digital tools.
           </p>
-          <br />
+          {/* <br /> */}
           <h3>Future Directions</h3>
           <p>
             Moving forward, <strong>ByteBroom</strong> can expand beyond student

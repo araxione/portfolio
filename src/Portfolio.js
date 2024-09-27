@@ -1,9 +1,10 @@
 import React from "react";
 import "./App.css";
-// import ecoHome from "./images/ecopantry/eco.png";
-// import byteBroom from "./images/bytebroom/bytebroom.png";
+import ecoHome from "./images/ecopantry/eco.png"
+import byteBroom from "./images/bytebroom/bytebroom.png";
 import me from "./images/profile.png";
 import separator from "./images/separator.png";
+import atlas from "./images/atlas/atlas.png";
 
 const Portfolio = () => {
   return (
@@ -20,20 +21,37 @@ const Portfolio = () => {
             applied science.
           </p>
         </div>
-        {/* <div className="intro-pic"> */}
         <img src={me} alt="me" className="intro-pic" />
-        {/* </div> */}
       </div>
       <img src={separator} alt="separator" className="separator" />
 
       <section className="portfolio-work">
         <h2>check out my work.</h2>
-        <br />
         <div className="work-grid">
+          <div className="work-item">
+            <a href="/atlas" className="work-link">
+              <img
+                src={atlas}
+                alt="Atlas Thumbnail"
+                className="work-image"
+              />
+              <div className="work-details">
+                <p className="project-header">Atlas Power technologies</p>
+                <h3>Energy System Storage</h3>
+                <p>
+                  Helping engineers manage controllers and edit parameters easily.
+                </p>
+                <div className="work-tags">
+                  <span>UX/UI Design</span>
+                  <span>User Research</span>
+                </div>
+              </div>
+            </a>
+          </div>
           <div className="work-item">
             <a href="/ecopantry" className="work-link">
               <img
-                // src={ecoHome}
+                src={ecoHome}
                 alt="EcoPantry Thumbnail"
                 className="work-image"
               />
@@ -54,7 +72,7 @@ const Portfolio = () => {
 
           <div className="work-item">
             <a href="/bytebroom" className="work-link">
-              {/* <img src={byteBroom} alt="ByteBroom" className="work-image" /> */}
+              <img src={byteBroom} alt="ByteBroom" className="work-image" />
               <div className="work-details">
                 <p className="project-header">Project</p>
                 <h3>ByteBroom</h3>
