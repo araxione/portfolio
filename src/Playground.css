@@ -1,0 +1,19 @@
+.playground-container {
+  max-width: 900px; /* Optional: limit the max width */
+  margin: 0 auto; /* Center the container */
+  padding: 24px;
+}
+
+.comic-images {
+  display: flex;
+  flex-wrap: wrap; /* Allow images to wrap to the next line */
+  gap: 24px; /* Space between images */
+}
+
+.comic-images img {
+  width: 100%; /* Make images take the full width of their container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  flex: 1 1 calc(50% - 12px); /* 2 images per row, accounting for gap */
+  max-width: calc(50% - 12px); /* 2 images per row with gap */
+}

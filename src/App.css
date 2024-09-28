@@ -43,7 +43,7 @@ body {
   height: auto;
 }
 
-.separator {
+.separator-design {
   display: block;
   max-width: 100%;
   height: auto;
@@ -110,10 +110,8 @@ body {
 .work-link {
   text-decoration: none;
   color: #333;
-/* } */
-/* .work-link { */
-  position: relative; /* Needed for absolute positioning */
-  cursor: url('./images/cursor.png'), auto; /* Custom cursor */
+  position: relative;
+  cursor: url('./images/homepage/cursor.png'), auto; 
 }
 
 

@@ -7,10 +7,10 @@ import ByteBroom from "./ByteBroom";
 import Atlas from "./Atlas";
 import Scarp from "./Scarp";
 import About from "./About";
+import Playground from "./Playground";
 import "./App.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 
 const App = () => {
   return (
@@ -25,7 +25,7 @@ const App = () => {
           <Route path="/scarp" element={<Scarp />} />
           <Route path="/resume" element={<Portfolio />} />{" "}
           {/* Adjust as necessary */}
-          <Route path="/playground" element={<Portfolio />} />{" "}
+          <Route path="/playground" element={<Playground />} />{" "}
           {/* Adjust as necessary */}
           <Route path="/about" element={<About />} />{" "}
           {/* Adjust as necessary */}

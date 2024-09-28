@@ -2,8 +2,8 @@ import React from "react";
 import "./App.css";
 import ecoHome from "./images/ecopantry/eco.png"
 import byteBroom from "./images/bytebroom/bytebroom.png";
-import me from "./images/profile.png";
-import separator from "./images/separator.png";
+import me from "./images/homepage/profile.png";
+import separator from "./images/homepage/separator.png";
 import atlas from "./images/atlas/atlas.png";
 import scarp from "./images/scarp/scarp.png";
 import Footer from "./Footer";
@@ -26,7 +26,7 @@ const Portfolio = () => {
         </div>
         <img src={me} alt="me" className="intro-pic" />
       </div>
-      <img src={separator} alt="separator" className="separator" />
+      <img src={separator} alt="separator" className="separator-design" />
 
       <section className="portfolio-work">
         <h2>check out my work.</h2>
