@@ -17,9 +17,9 @@
 }
 
 .separator {
-  margin: 40px 0; /* Add spacing above and below the line */
+  margin: 40px 0;
   border: 0;
-  border-top: 2px solid #ececec; /* Style the line */
+  border-top: 2px solid #ececec; 
 }
 
 .about-image img,
