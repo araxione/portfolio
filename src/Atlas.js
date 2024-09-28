@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const PasswordProtectedPage = () => {
   const [password, setPassword] = useState("");
   const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const correctPassword = "atlasisasecret007"; 
+  const correctPassword = process.env.REACT_APP_CORRECT_PASSWORD;
 
   const handleInputChange = (e) => {
     setPassword(e.target.value);
@@ -23,7 +23,6 @@ const PasswordProtectedPage = () => {
       {isAuthenticated ? (
         <div className="welcome-message">
           <h1>Under Construction</h1>
-          {/* <p>Your detailed project description goes here...</p> */}
         </div>
       ) : (
         <form onSubmit={handleSubmit} className="password-form">
