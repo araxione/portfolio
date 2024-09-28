@@ -1,5 +1,6 @@
 import React from "react";
 import "./Playground.css";
+import Footer from "./Footer";
 import p1 from "./images/playground/p1.png";
 import p2 from "./images/playground/p2.png";
 import p3 from "./images/playground/p3.png";
@@ -17,6 +18,7 @@ const Playground = () => {
         <img src={p4} alt="Comic 4" />
         <img src={p5} alt="Comic 5" />
       </div>
+      <Footer />
     </div>
   );
 };
