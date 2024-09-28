@@ -448,17 +448,17 @@ const ByteBroom = () => {
               error count (0.5), followed by "deselect to keep" (1.5), while
               "select to keep" had the highest error count (4.95).
             </li>
-             <div className="project-image" data-aos="zoom-in">
+            <div className="project-image" data-aos="zoom-in">
               <img src={count} alt="Error Count" />
-            </div> 
+            </div>
             <li>
               <strong>Completion time</strong>: "Select to delete" was also the
               fastest method, with an average completion time of 31.5 seconds,
               while "select to keep" was the slowest at 64.5 seconds.
             </li>
-             <div className="project-image" data-aos="zoom-in">
+            <div className="project-image" data-aos="zoom-in">
               <img src={time} alt="Completion Time" />
-            </div> 
+            </div>
           </ul>
 
           <p>
@@ -468,13 +468,13 @@ const ByteBroom = () => {
           </p>
           <div className="project-image" data-aos="zoom-in">
             <img src={anova} alt="Anova" />
-          </div> 
+          </div>
           <p>
             Additionally, we observed a significant main effect of the file
             selection method on <strong>error count</strong> (Figure 1) and{" "}
             <strong>completion time</strong> (Figure 2).
           </p>
-           <div className="project-image" data-aos="zoom-in">
+          <div className="project-image" data-aos="zoom-in">
             <img src={main_effects} alt="Main Effects" />
           </div>
           {/* <br /> */}
@@ -485,9 +485,9 @@ const ByteBroom = () => {
             <strong>System Usability Scale (SUS)</strong> format as shown in
             Table 4.
           </p>
-        <div className="project-image" data-aos="zoom-in">
+          <div className="project-image" data-aos="zoom-in">
             <img src={sus} alt="SUS" />
-          </div> 
+          </div>
           <p>
             Participants were also interviewed using the System Usability Scale
             (SUS). The “<strong>deselect to keep</strong>” method achieved the
@@ -610,6 +610,7 @@ const ByteBroom = () => {
             in real-world scenarios.
           </p>
         </section>
+        <Footer />
       </div>
     </div>
   );

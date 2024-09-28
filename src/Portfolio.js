@@ -42,7 +42,7 @@ const Portfolio = () => {
                 <p className="project-header">Atlas Power technologies: Internship</p>
                 <h3>Energy System Storage</h3>
                 <p>
-                🔒 This project is under an NDA.
+                🔒 This product is under an NDA.
                 </p>
                 <div className="work-tags">
                   <span>UX/UI Design</span>
@@ -115,6 +115,7 @@ const Portfolio = () => {
           {/* Add more projects below */}
         </div>
       </section>
+      <br/>
       <Footer/>
     </div>
   );
